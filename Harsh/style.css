@@ -1,0 +1,82 @@
+
+body{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   
+}
+h1{
+    background-color: azure;
+    color: red;
+}
+ ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+   
+ 
+   }
+   ul{
+      text-align: center;
+      color: azure;
+      
+  }
+ li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 50px;
+    color: rgb(64, 198, 84);
+     
+ }
+ 
+ a{
+   text-decoration: none;
+   color:yellow;
+ }
+
+ section{
+    background-color: azure;
+ }
+
+
+ header{
+   background-color:rgb(40, 35, 35);
+   color: rgb(57, 201, 117);
+   background-image: url(./hdr.jpg);
+   background-position: center;
+   height: 400px;
+   background-size:cover;
+   background-repeat: no-repeat;
+   padding: 20px;
+   font-size: 2em;
+   display: flexbox;
+   
+}
+li.logo 
+{
+    /* background-color: red; */
+    position: relative;
+    top: -120px;
+    display: inline-block;
+    width: 200px;
+    height: 400px; 
+    background-image: url(./logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat ;
+  
+}
+header nav ul li :hover{
+   background-color: rgb(172, 226, 174);
+   border-radius: 25%;
+}
+
+section{
+   
+   align-items: center;
+   
+}
+/* div{
+   display: inline-block;
+   align-items: center;
+} */
